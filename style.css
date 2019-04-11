@@ -1,0 +1,52 @@
+.box {
+  min-height: 50px;
+  padding: 5px;
+  font-weight: 800;
+}
+
+.skyblue {
+  background: rgb(37, 197, 245);
+}
+
+.purple {
+  background: rebeccapurple;
+}
+
+.red {
+  background: indianred;
+}
+
+.whitefont {
+  color: rgb(255, 255, 255);
+}
+
+.lightlightblue {
+  background: rgb(181, 238, 235);
+}
+
+.TFtable{
+  width:100%; 
+  border-collapse:collapse; 
+}
+.TFtable_td{ 
+  padding:7px; border:#000000 1px solid;
+}
+/* provide some minimal visual accomodation for IE8 and below */
+.TFtable_tr{
+  background: #000000;
+}
+/*  Define the background color for all the ODD background rows  */
+.TFtable tr:nth-child(odd){ 
+  background: #b8d1f3;
+}
+/*  Define the background color for all the EVEN background rows  */
+.TFtable tr:nth-child(even){
+  background: #dae5f4;
+}
+
+.white{ 
+  background: #6b63dd;
+}
+.topnav-right{
+  float: right;
+}
